@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAC,gBAAI;AACZ,AACI,IADA,CACA,GAAG,CAAA;EACC,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,IAAI;CACf",
+    "sources": [
+        "worksWeb.scss"
+    ],
+    "names": [],
+    "file": "worksWeb.css"
+}

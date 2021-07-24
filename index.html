@@ -4,11 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style></style>
-    <script></script>
-    <title>github.io sample</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="main.js" defer></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Portfolio Site</title>
 </head>
 <body>
-    <h1>Hello,World!</h1>
+    <!--headerとfooterは共通-->
+    <header>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">トップ</a></li>
+                <li><a href="index.html#sec2">私について</a></li>
+                <li><a href="index.html#sec3">作品</a></li>
+                <li><a href="index.html#sec4">お問い合わせ</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section id="sec1">
+            <h1>Me</h1>
+        </section>
+        <section id="sec2">
+            <h1>私について</h1>
+            <h2>about</h2>
+        </section>
+        <section id="sec3">
+            <h1>作品</h1>
+            <h2>works</h2>
+            <ul class="works-link">
+                <li><a href="pages/worksArt.html">イラスト</a></li>
+                <li><a href="pages/worksWeb.html">Web制作</a></li>
+            </ul>
+        </section>
+        <section id="sec4">
+            <h1>お問い合わせ</h1>
+            <h2>contact</h2>
+            <div>ご連絡やご依頼は以下のSNS、またはメールからお願いいたします。</div>
+            <ul class="social">
+                <li><a href="mailto:sakakibarahi@gmail.com"><i class="far fa-envelope"></i> E-mail</a></li>
+                <li><a href="https://github.com/sakakibara-hi"><i class="fab fa-github"></i> GitHub</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <h2 class="to-top"><a href="index.html">トップへ</a></h2>
+    </footer>
 </body>
 </html>
