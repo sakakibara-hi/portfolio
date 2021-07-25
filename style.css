@@ -10,6 +10,60 @@ main h2 {
   font-size: 16px;
 }
 
+main #sec1 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("img/BG.png");
+  background-size: cover;
+  background-position: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #sec2 .about-cont {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row;
+      -ms-flex-flow: row;
+          flex-flow: row;
+}
+
+main #sec2 .about-cont .prof-cont {
+  margin: 0 4rem 4rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+main #sec2 .about-cont .prof-cont .face {
+  display: inline-block;
+}
+
+main #sec2 .about-cont .prof-cont .name {
+  font-size: 1.5em;
+}
+
+main #sec2 .about-cont .prof-cont .about {
+  margin-top: 4em;
+  margin-bottom: 1em;
+}
+
 main #sec3 .works-link {
   list-style: none;
   display: -webkit-box;
