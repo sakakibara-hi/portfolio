@@ -42,8 +42,14 @@ main #sec3 .works-link li a {
   display: block;
   text-decoration: none;
   color: black;
-  -webkit-transition: 1s color;
-  transition: 1s color;
+  -webkit-transition: .5s all;
+  transition: .5s all;
+}
+
+main #sec3 .works-link li a:hover {
+  color: gray;
+  -webkit-box-shadow: 0 2px 1rem #44a5ff;
+          box-shadow: 0 2px 1rem #44a5ff;
 }
 
 main #sec4 {
@@ -99,6 +105,6 @@ main #sec4 .social li a:hover {
 }
 
 main section:nth-child(2n) {
-  background-color: #f0f0f0;
+  background-color: var(--bgCol);
 }
 /*# sourceMappingURL=style.css.map */

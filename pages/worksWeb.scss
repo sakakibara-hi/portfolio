@@ -1,7 +1,33 @@
 @import url(../base.css);
 main{
-    img{
-        width: 80%;
-        height: auto;
+    #sec1{
+        background-color: var(--bgCol);;
+        margin-top: 4em;
+        display: flex;
+        flex-flow: column;
+        .webdes{
+            margin-top: 4em;
+            display: flex;
+            flex-flow: row;
+            .info{
+                margin-right: 2em;
+                color: gray;
+                li{
+                    padding-top: 1.2em;
+                }
+            }
+            .info2{
+                margin-left: 2em;
+                color: black;
+                li{
+                    padding-top: 1.2em;
+                }
+            }
+        }
+        img{
+            padding: 4em 32em 8em;
+            width: 60%;
+            height: auto;
+        }
     }
 }

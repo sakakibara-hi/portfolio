@@ -1,6 +1,52 @@
 @import url(../base.css);
-main img {
-  width: 80%;
+main #sec1 {
+  background-color: var(--bgCol);
+  margin-top: 4em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+main #sec1 .webdes {
+  margin-top: 4em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row;
+      -ms-flex-flow: row;
+          flex-flow: row;
+}
+
+main #sec1 .webdes .info {
+  margin-right: 2em;
+  color: gray;
+}
+
+main #sec1 .webdes .info li {
+  padding-top: 1.2em;
+}
+
+main #sec1 .webdes .info2 {
+  margin-left: 2em;
+  color: black;
+}
+
+main #sec1 .webdes .info2 li {
+  padding-top: 1.2em;
+}
+
+main #sec1 img {
+  padding: 4em 32em 8em;
+  width: 60%;
   height: auto;
 }
 /*# sourceMappingURL=worksWeb.css.map */
