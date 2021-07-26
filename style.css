@@ -31,10 +31,10 @@ main #sec1 {
   display: flex;
 }
 
-main #sec1 h1 {
+main #sec1 .head {
   color: white;
-  font-weight: bold;
   text-shadow: #141414 0px 0 16px;
+  font-weight: bold;
   font-size: 400%;
   top: 50vh;
 }
